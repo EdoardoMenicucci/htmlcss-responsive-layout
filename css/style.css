@@ -68,6 +68,9 @@ h4 {
     font-size: 2.5vh;
 }
 
+p {
+    padding: 1rem 0;
+}
 
 /* Header */
 
@@ -90,6 +93,7 @@ header {
     height: 10rem;
     margin-top: 1rem;
     background-color: lightblue;
+    padding: 1rem;
 }
 
 .section {
@@ -98,6 +102,12 @@ header {
     margin-top: 1rem;
     background-color: lightblue;
     margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.inside-sec {
+    width: 100%;
+    border: #222 solid 1px;
 }
 
 .bg-purple {
@@ -112,6 +122,7 @@ header {
     height: 10rem;
     margin-top: 1rem;
     background-color: lightblue;
+    padding: 1rem;
 }
 
 .testimonial {
@@ -134,6 +145,7 @@ header {
     background-color: white;
     width: 100%;
     margin: 1rem 0;
+    padding: 1rem;
 }
 
 .link-profile {
@@ -152,7 +164,7 @@ footer {
     padding: 1rem 0;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
     .double-sec {
         width: calc((100% / 3) * 2 - 0.5rem);
     }
@@ -177,4 +189,30 @@ footer {
         width: 100%;
         padding: 1rem 0;
     }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .inside-sec {
+        width: 50%;
+    }
+
+    .big-sec {
+        width: calc(50% - 0.5rem);
+    }
+
+
+    .sec50 {
+        width: calc(33% - 1rem);
+    }
+
+    .link-profile {
+        width: 30%;
+    }
+
 }
