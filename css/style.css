@@ -100,6 +100,14 @@ header {
     color: white;
 }
 
+nav i {
+    color: white;
+}
+
+.no-mobile {
+    display: none;
+}
+
 /* Main */
 
 .container {
@@ -157,7 +165,13 @@ header {
     padding: 1rem 0;
 }
 
-
+.app-store {
+    border: none;
+    background-color: #0084fd;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
 
 .big-sec {
     width: 100%;
@@ -188,6 +202,14 @@ header {
 
 .testimonial h3 {
     color: #9792e4;
+}
+
+.more {
+    border: none;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
 }
 
 .id-card img {
@@ -226,6 +248,10 @@ header {
     color: #9792e4;
 }
 
+.gold {
+    color: goldenrod;
+}
+
 .link-profile {
     float: right;
     width: 100%;
@@ -234,6 +260,14 @@ header {
 
 .clear-fix h2 {
     margin-top: 2rem;
+}
+
+.started-button {
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
 }
 
 .link-profile img {
@@ -250,7 +284,6 @@ footer {
     background-color: #222;
     width: 100%;
     color: white;
-    margin-top: 1rem;
     padding: 1rem 0;
 }
 
@@ -307,6 +340,11 @@ footer {
 
     .link-profile {
         width: 30%;
+    }
+
+    .no-mobile {
+        display: inline;
+        padding: 0 1rem;
     }
 
 }
